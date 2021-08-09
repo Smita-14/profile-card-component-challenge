@@ -38,8 +38,8 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 ### Links
 
-- Solution URL: [Solution on FrontendMentor.io](https://www.frontendmentor.io/solutions/mobilefirst-responsive-site-using-bem-and-css-flexbox-pq6eqwzdM)
-- Live Site URL: [Live site preview](https://smita-14.github.io/3-column-preview-card-challenge/)
+- Solution URL: [Solution on FrontendMentor.io](https://www.frontendmentor.io/solutions/mobilefirst-bem-and-css-flexbox-fJ_jjaLWV)
+- Live Site URL: [Live site preview](https://smita-14.github.io/profile-card-component-challenge/)
 
 ## My process
 
