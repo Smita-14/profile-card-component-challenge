@@ -29,7 +29,12 @@
     text-decoration-color: hsl(184, 61%, 86%);
 }
 
-.card__details > * {
+.attribution__link:hover, .attribution__link:focus {
+    color: hsl(184, 61%, 86%);
+    text-decoration: none;
+}
+
+.card__details * {
     display: inline-block;
 }
 
@@ -62,7 +67,12 @@
 body {
     font-family: 'Kumbh Sans', sans-serif;
     text-align: center;
+
     background-color: var(--dark-cyan);
+    background-image: url(images/bg-pattern-top.svg), url(images/bg-pattern-bottom.svg);
+    background-position: calc(56vw - 100vh) -60vh, 43vw 50vh;
+    background-repeat: no-repeat;
+    background-size: auto 100vh;
 }
 
 img {
@@ -80,12 +90,6 @@ img {
 }
 
 /* main styling */
-.bg-img {
-    background-image: url(images/bg-pattern-top.svg), url(images/bg-pattern-bottom.svg);
-    background-repeat: no-repeat;
-    background-position: -750px -650px, 100px 300px;
-}
-
 .card {
     background-color: white;
     border-radius: 15px;
@@ -109,7 +113,7 @@ img {
 
 .card__body {
     padding: 1.25rem 0;
-    border-bottom: 1px solid hsla(0, 0%, 59%, .3);
+    border-bottom: 1px solid hsla(0, 0%, 80%, 0.4);
 }
 
 .card__footer {
@@ -118,31 +122,8 @@ img {
     padding: 1.8rem 0 1.5rem;
 }
 
-
-@media (min-width: 540px) {
-    .bg-img {
-        background-position: -650px -550px, 150px 350px;
-    }
-
+@media (min-width: 600px) {
     .card {
     width: 350px;
-    }
-}
-
-@media (min-width: 840px) {
-    .bg-img {
-        background-position: -500px -500px, 400px 300px;
-    }
-}
-
-@media (min-width: 1080px) {
-    .bg-img {
-        background-position: -400px -500px, 550px 300px;
-    }
-}
-
-@media (min-width: 1350px) {
-    .bg-img {
-        background-position: -300px -500px, 650px 300px;
     }
 }
