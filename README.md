@@ -56,4 +56,4 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 - Frontend Mentor - [@Smita-14](https://www.frontendmentor.io/profile/Smita-14)
 
 ## Acknowledgments
-A great big thanks to [Afrussel](https://www.frontendmentor.io/profile/afrussel) for helping me out with how to work with background images in this particular challenge and [Frontend Mentor](https://www.frontendmentor.io) & it's team for building a community where we can learn, share and grow with amazing people! 💖💖.
+A great big thanks to [Afrussel](https://www.frontendmentor.io/profile/afrussel) for guiding me how to work with background images in this particular challenge and [Frontend Mentor](https://www.frontendmentor.io) & it's team for building a community where we can learn, share and grow with amazing people! 💖💖.
