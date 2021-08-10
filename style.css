@@ -72,7 +72,7 @@ body {
     background-image: url(images/bg-pattern-top.svg), url(images/bg-pattern-bottom.svg);
     background-position: calc(56vw - 100vh) -60vh, 43vw 50vh;
     background-repeat: no-repeat;
-    background-size: auto 100vh;
+    background-size: auto 100%;
 }
 
 img {
@@ -125,5 +125,9 @@ img {
 @media (min-width: 600px) {
     .card {
     width: 350px;
+    }
+    
+    body {
+    background-position: calc(48vw - 100vh) -50vh, 50vw 50vh;
     }
 }
